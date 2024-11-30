@@ -4,7 +4,7 @@ body {
 
 @keyframes dropIn {
     from {
-        transform: translateY(-100px) translateX(-50%);
+        transform: translateY(-130px) translateX(-50%);
     }
 
     to {
