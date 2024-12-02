@@ -9,11 +9,11 @@ const menuItems = [
         description: "Licuado de limón y cerezas con leche condesada. 14.000mil",
         image: '/assets/vista-frontal-color-rojo-cereza-coctel-pajitas-dentro-pequena-lata-enfriamiento-fresco-escritorio-madera-junto-cerezas-frescas-flores-escritorio-rosa.png'
     },
-    {
-        name: 'Copa de Helado',
-        description: "2 bolas y media con fruta variada por 12.000 mil",
-        image: '/assets/1000_F_312360554_CD4jAXwx5hKMnNFCZktgDaHWrF0DJO8M.jpg'
-    },
+    // {
+    //     name: 'Copa de Helado',
+    //     description: "2 bolas y media con fruta variada por 12.000 mil",
+    //     image: '/assets/1000_F_312360554_CD4jAXwx5hKMnNFCZktgDaHWrF0DJO8M.jpg'
+    // },
     {
         name: 'Canasta',
         description: "3 bolas de helado por 10.000 mil",
@@ -26,18 +26,18 @@ const menuItems = [
     },
     {
         name: 'Ensalada de frutas',
-        description: "Brownie con una bola de helado y salsas por 10.000 mil",
+        description: "Fruta variada con una bola de helado, queso, leche condensada y crema chantilly. 15.000mil",
         image: '/assets/1000_F_312360554_CD4jAXwx5hKMnNFCZktgDaHWrF0DJO8M.jpg'
     },
     {
         name: 'Milo Frappe',
-        description: "Banano con 3 bolas de helado, crema chantilly y salsa de chocolate por 7.500 mil",
+        description: "Granizado de Milo con salsa de chocolate y crema chantilly. Pequeño 8.500 Grande 12.000mil",
         image: '/assets/1000_F_472583524_OUMweeIXxuqFptsf9AVEYaTTnbnUbQ2g.jpg'
     },
     {
-        name: 'Ensalada de frutas 2',
-        description: "Licuado de helado con leche y crema chantilly, pequeño por 8.500 mil, grande por 12.000 mil",
-        image: '/assets/1000_F_1071069985_o3cxq0R3KWbmlyZkKR0UZbWQOtr6jDot.jpg'
+        name: 'Helado Vaso',
+        description: "Grande: 6.000mil Mediano: 3.500",
+        image: '/assets/delicious-chocolate-ice-cream-cup.jpg'
     },
     {
         name: 'Helado Brawnie',
