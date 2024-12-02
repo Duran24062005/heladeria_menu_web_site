@@ -63,8 +63,14 @@ const menuItems = [
         name: 'Copa Galleta',
         description: "Helado servido en vaso, grande por 6.000 mil, mediano por 3.500 mil",
         image: '/assets/three-color-icecream-gelato-buns-glass.jpg'
+    },
+    {
+        name: 'Helado creps',
+        description: "Helado servido en vaso, grande por 6.000 mil, mediano por 3.500 mil",
+        image: '/assets/pancakes-with-chocolate-jam-berries-tasty-breakfast-flat-lay-top-view (1).jpg'
     }
 ];
+
 
 
 function createMenuItem(item) {
@@ -72,7 +78,7 @@ function createMenuItem(item) {
     div.className = 'bg-white rounded-lg overflow-hidden shadow-lg shadow-pink-700 flex flex-col h-full';
     div.innerHTML = `
         <div class="relative h-48">
-            <img src="${item.image}" alt="${item.name}" class="w-full h-full object-cover">
+            <img src="${item.image}" alt="${item.name}" class="w-full h-full object-cover data-twe-lazy-load-init">
         </div>
         <div class="p-2 flex-grow flex flex-col justify-between">
             <h3 class="text-lg font-semibold text-center mb-2">${item.name}</h3>
