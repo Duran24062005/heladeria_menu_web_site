@@ -64,11 +64,15 @@ const menuItems = [
 
 function createMenuItem(item) {
     const div = document.createElement('div');
-    div.className = 'bg-white rounded-lg overflow-hidden shadow-lg shadow-pink-700';
+    div.className = 'bg-white rounded-lg overflow-hidden shadow-lg shadow-pink-700 flex flex-col h-full';
     div.innerHTML = `
-        <img src="${item.image}" alt="${item.name}" class="w-full h-48 object-cover">
-        <h3 class="p-2 text-lg text-center">${item.name}</h3>
-        <p clas="p-4 text-center">${item.description}</p>
+        <div class="relative h-48">
+            <img src="${item.image}" alt="${item.name}" class="w-full h-full object-cover">
+        </div>
+        <div class="p-2 flex-grow flex flex-col justify-between">
+            <h3 class="text-lg font-semibold text-center mb-2">${item.name}</h3>
+            <p class="text-sm text-center">${item.description}</p>
+        </div>
     `;
     return div;
 }
