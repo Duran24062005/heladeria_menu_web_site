@@ -6,7 +6,7 @@ const menuItems = [
     },
     {
         name: 'Limonada cerezada',
-        description: "3 bolas de helado por 7.500 mil, 2 bolas de helado por 4.000 mil",
+        description: "Licuado de limón y cerezas con leche condesada. 14.000mil",
         image: '/assets/vista-frontal-color-rojo-cereza-coctel-pajitas-dentro-pequena-lata-enfriamiento-fresco-escritorio-madera-junto-cerezas-frescas-flores-escritorio-rosa.png'
     },
     {
@@ -21,7 +21,7 @@ const menuItems = [
     },
     {
         name: 'Copa Fruta',
-        description: "3 bolas de helado con barquillos de chocolate por 10.000 mil",
+        description: "2 bola y media con fruta variada 12.000mil",
         image: '/assets/1000_F_55362648_xzL2X1RYeZACfIJSoZuuBV87QAetfNNT.jpg'
     },
     {
@@ -41,32 +41,32 @@ const menuItems = [
     },
     {
         name: 'Helado Brawnie',
-        description: "Creps con una bola de helado y salsa de frutas por 10.000 mil",
+        description: "Brawnie con una bola de helado y salsas. 10.000mil",
         image: '/assets/brownie-sundae-with-scoop-vanilla-ice-cream.jpg'
     },
     {
         name: 'Helado Barquillo',
-        description: "Limonada cerezada con leche condensada por 14.000 mil",
+        description: "3 bolas de helado con barquillos de chocolate. 10.000mil",
         image: '/assets/chocolate-ice-cream-dessert.jpg'
     },
     {
         name: 'Batido de Helado',
-        description: "Granizado de Milo con salsa de chocolate y crema chantilly, pequeño por 8.500 mil, grande por 12.000 mil",
+        description: "Licuado de helado con leche con crema chantilly. Pequeño: 8.500 grande: 12.000mil",
         image: '/assets/creamy-vanilla-milkshake-with-chocolate-sauce-white-saucer.jpg'
     },
     {
         name: 'Banana Split',
-        description: "3 bolas de helado con galleta de chocolate normal por 7.500 mil, con fruta por 9.000 mil",
+        description: "Banano con 3 bolas de helado y crema chantilly con salsa de chocolate. 7.500",
         image: '/assets/ice-cream-dessert-with-banana.jpg'
     },
     {
         name: 'Copa Galleta',
-        description: "Helado servido en vaso, grande por 6.000 mil, mediano por 3.500 mil",
+        description: "3 bolas de helado con galleta de chocolate Normal: 7.500 Con fruta: 9.000mil",
         image: '/assets/three-color-icecream-gelato-buns-glass.jpg'
     },
     {
         name: 'Helado creps',
-        description: "Helado servido en vaso, grande por 6.000 mil, mediano por 3.500 mil",
+        description: "Creps con una bola de helado y salsa de frutas por 10.000 mil",
         image: '/assets/pancakes-with-chocolate-jam-berries-tasty-breakfast-flat-lay-top-view (1).jpg'
     }
 ];
