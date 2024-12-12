@@ -98,7 +98,7 @@ function createMenuItem(item) {
             <p class="text-sm text-center mb-4">${item.description}</p>
             <div class="text-center relative h-16 mt-auto">
                 <div class="absolute inset-0 flex items-center justify-center">
-                    <span class="shadow-lg shadow-pink-700 p-2 bg-gradient-to-t from-cyan-100 to-pink-400 rounded-lg transform -rotate-12 flex items-center justify-center">
+                    <span class="shadow-lg shadow-pink-700 p-2 bg-gradient-to-t from-pink-100 to-pink-400 rounded-sm transform -rotate-12 flex items-center justify-center">
                         <span class="text-white font-bold text-xs sm:text-sm whitespace-nowrap px-2">
                             ${item.price}
                         </span>
